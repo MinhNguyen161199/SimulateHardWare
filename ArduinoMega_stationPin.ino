@@ -220,7 +220,7 @@ void loop(){
     lock_sl_3.write(0);
     
     while(Serial2.available()>0){      
-      fileData=SD.open("slot_2.txt");
+      fileData=SD.open("slot_3.txt");
       read_file();
       fileData.close();
       
@@ -303,7 +303,7 @@ void loop(){
     lock_sl_4.write(0);
     
     while(Serial3.available()>0){      
-      fileData=SD.open("slot_2.txt");
+      fileData=SD.open("slot_4.txt");
       read_file();
       fileData.close();
       
