@@ -37,13 +37,13 @@ void setup() {
   fileData=SD.open("slot_1.txt",FILE_WRITE);  
   fileData.println("ABC12345|50|1");
   fileData.close();
-  fileData=SD.open("slot_1.txt",FILE_WRITE);  
+  fileData=SD.open("slot_2.txt",FILE_WRITE);  
   fileData.println("BAC12345|70|1");
   fileData.close();
-  fileData=SD.open("slot_1.txt",FILE_WRITE);  
+  fileData=SD.open("slot_3.txt",FILE_WRITE);  
   fileData.println("CAB12345|90|1");
   fileData.close();
-  fileData=SD.open("slot_1.txt",FILE_WRITE);  
+  fileData=SD.open("slot_4.txt",FILE_WRITE);  
   fileData.println("AAA12345|20|1");
   fileData.close();
 }
