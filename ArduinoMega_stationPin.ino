@@ -6,7 +6,6 @@
 #include <string.h>
 #include <Servo.h>
 #include <Wire.h>
-#include <stdlib.h>
 
 String data, pin, id, tt, tag;
 int PIN;
